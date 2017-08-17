@@ -45,4 +45,79 @@ html, body{
 
  /* animated */
 
-<h1 class="animated fadeIn">Example</h1>
+<h1 class="animated fadeIn">Save, Share and Collaborate</h1>
+
+
+/*media */
+@media (min-width: 768px) {
+   .container {
+     width: 750px;
+   }
+ }
+ @media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+ }
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+ }
+
+ /* HEADER */
+  header {
+    color:#F2FBF8;
+    background: #727F7B;
+
+  }
+  header nav {
+    padding:1em 0;
+  }
+  header nav ul {
+    display:inline;
+    text-align: right;
+    float:right;
+    margin:0;
+  }
+  header nav ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin:0 15px;
+  }
+  header nav ul > li.btn-outline {
+    padding:10px 15px;
+    border:2px solid #F2FBF8;
+    border-radius: 4px;
+  }
+  header nav ul > li.btn-outline:hover {
+    background:#727F7B;
+  }
+  header nav ul > li > a {
+    color:#F2FBF8;
+    text-decoration: none;
+  }
+  header nav ul > li.btn-outline:hover > a {
+    color:#34495E;
+  }
+
+  /* BUTTONS */
+.btn {
+  border-radius: 4px;
+  color:#59232A;
+  font-weight: 700;
+  text-decoration: none;
+  padding:10px 30px;
+  background: #FFC500;
+  border: 2px solid #59232A;
+  box-shadow: 0px 2px 0px 0px #22894E;
+}
