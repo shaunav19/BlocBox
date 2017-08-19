@@ -49,6 +49,13 @@ html, body{
 
 
 /*media */
+
+
+
+@media (min-width: 600px) {
+
+}
+
 @media (min-width: 768px) {
    .container {
      width: 750px;
