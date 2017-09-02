@@ -132,6 +132,13 @@ html, body{
 
 
 /* BENEFITS */
+
+.container hero {
+  text-align: center;
+  display:block;
+  position:relative;
+}
+
  .benefits {
    text-align: center;
    display:block;

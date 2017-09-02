@@ -57,3 +57,23 @@ background: #727F7B;
      font-family: "Playfair Display", Helvetica, Arial, sans-serif;
      font-weight:100;
     }
+
+    .settings-menu  .dropit-submenu {
+          display: block;
+          background: #FFFFFF ;
+         box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+         border-radius: 4px;
+     }
+
+    .settings-menu  .dropit-submenu:after {
+       content: ” “;
+       position: absolute;
+       border-style: solid;
+       border-width: 0 8px 8px;
+       border-color: #FFFFFF transparent;
+       display: block;
+       width: 0;
+       z-index: 10;
+       top: -8px;
+       right: 10px;
+     }
